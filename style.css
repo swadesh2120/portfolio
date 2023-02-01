@@ -171,6 +171,24 @@ nav .fa {
     color: var(--secondary-color);
     text-align: center;
 }
+.skills .progress{
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+    margin-top: 40px;
+    flex-direction: row;
+}
+.skills .progress .right{
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    gap: 90px;
+}
+.skills .progress .left{
+    display: flex;
+    flex-direction: row;
+}
+
 
 .skills .heading {
     margin-left: 30%;
@@ -185,12 +203,12 @@ nav .fa {
     color: var(--secondary-color);
 }
 
-.skills .progress .bar1 {
+/* .skills .progress .bar1 {
     height: 20px;
     width: 80%;
     background-color: #2b2b85;
     margin-left: 20px;
-}
+} */
 
 .skills .progress .bar2 {
     height: 20px;
@@ -212,6 +230,8 @@ nav .fa {
     background-color: #2b2b85;
     margin-left: 20px;
 }
+
+
 
 /* About page end */
 
