@@ -173,12 +173,20 @@ nav .fa {
 }
 .skills .progress{
     display: flex;
-    gap: 30px;
+    gap: 75px;
     padding: 10px;
-    margin-top: 40px;
+    margin-top: 30px;
     flex-direction: row;
+   
 }
-.skills .progress .right{
+ .skills .progress .box{
+    text-align: center;
+    background-color: rgb(28 134 197);
+    height: auto;
+    width: 250px;
+    padding: 10px;
+}
+/* .skills .progress .right{
     display: flex;
     flex-direction: row;
     padding: 40px;
@@ -187,7 +195,9 @@ nav .fa {
 .skills .progress .left{
     display: flex;
     flex-direction: row;
-}
+} */
+
+
 
 
 .skills .heading {
